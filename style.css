@@ -162,7 +162,8 @@
   display: none;
 }
 
-.task__link_mod .task__input_text {
+.task__link_mod .task__input_text,
+.task_new-task .task__input_text {
   display: inline-block;
   width: 224px;
 }
