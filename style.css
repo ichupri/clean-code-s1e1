@@ -60,7 +60,9 @@
   outline: none;
 }
 
-.task__btn {
+.task__btn_add,
+.task__btn_edit,
+.task__btn_delete {
   background: none;
   border: 0px;
   color: #888;
@@ -70,7 +72,9 @@
   cursor: pointer;
 }
 
-.task__btn:hover {
+.task__btn_add:hover,
+.task__btn_edit:hover,
+.task__btn_delete:hover {
   color: #3a3A3a;
 }
 
